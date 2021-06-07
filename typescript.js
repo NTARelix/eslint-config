@@ -1,0 +1,42 @@
+module.exports = {
+  extends: 'plugin:@typescript-eslint/all',
+  rules: {
+    '@typescript-eslint/brace-style': ['error', '1tbs', { allowSingleLine: true }],
+    '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
+    '@typescript-eslint/consistent-type-imports': 'off',
+    '@typescript-eslint/explicit-function-return-type': ['error', { allowExpressions: true }],
+    '@typescript-eslint/indent': ['error', 2],
+    '@typescript-eslint/init-declarations': 'off',
+    '@typescript-eslint/lines-between-class-members': ['error', 'never'],
+    '@typescript-eslint/naming-convention': 'off',
+    '@typescript-eslint/member-delimiter-style': [
+      'error',
+      {
+        multiline: { delimiter: 'comma' },
+        singleline: { delimiter: 'comma' },
+      },
+    ],
+    '@typescript-eslint/no-empty-function': 'off',
+    '@typescript-eslint/no-extra-parens': 'off',
+    '@typescript-eslint/no-magic-numbers': 'off',
+    '@typescript-eslint/no-type-alias': [
+      'error',
+      {
+        allowAliases: 'always',
+        allowCallbacks: 'always',
+        allowConditionalTypes: 'always',
+        allowConstructors: 'always',
+        allowLiterals: 'never',
+        allowMappedTypes: 'always',
+        allowTupleTypes: 'always',
+      },
+    ],
+    '@typescript-eslint/object-curly-spacing': ['error', 'always'],
+    '@typescript-eslint/prefer-readonly-parameter-types': 'off',
+    '@typescript-eslint/promise-function-async': 'off',
+    '@typescript-eslint/quotes': ['error', 'single'],
+    '@typescript-eslint/semi': ['error', 'never'],
+    '@typescript-eslint/space-before-function-paren': ['error', { anonymous: 'never', asyncArrow: 'always', named: 'never' }],
+    '@typescript-eslint/strict-boolean-expressions': 'off',
+  },
+}
