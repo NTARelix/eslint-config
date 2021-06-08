@@ -1,7 +1,7 @@
 {
   "name": "@ntarelix/eslint-config",
-  "version": "1.0.0",
-  "main": "recommended.js",
+  "version": "1.0.2",
+  "main": "base.js",
   "license": "MIT",
   "scripts": {
     "lint": "eslint ."
