@@ -1,6 +1,7 @@
 module.exports = {
   extends: 'eslint:all',
   rules: {
+    'array-bracket-newline': ['error', { multiline: true }],
     'array-element-newline': ['error', 'consistent'],
     'arrow-parens': ['error', 'as-needed'],
     'brace-style': ['error', '1tbs', { allowSingleLine: true }],
