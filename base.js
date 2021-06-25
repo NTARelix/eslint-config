@@ -48,11 +48,6 @@ module.exports = {
       { blankLine: 'never', prev: 'cjs-import', next: 'cjs-import' },
       { blankLine: 'never', prev: 'import', next: 'cjs-import' },
       { blankLine: 'never', prev: 'cjs-import', next: 'import' },
-      // exports always padded
-      { blankLine: 'always', prev: 'export', next: '*' },
-      { blankLine: 'always', prev: '*', next: 'export' },
-      { blankLine: 'always', prev: 'cjs-export', next: '*' },
-      { blankLine: 'always', prev: '*', next: 'cjs-export' },
     ],
     'quote-props': ['error', 'consistent'],
     'quotes': ['error', 'single'],
