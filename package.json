@@ -1,6 +1,6 @@
 {
   "name": "@ntarelix/eslint-config",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "base.js",
   "license": "MIT",
   "scripts": {
