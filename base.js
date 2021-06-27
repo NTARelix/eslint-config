@@ -17,6 +17,7 @@ module.exports = {
     'id-length': 'off',
     'indent': ['error', 2],
     'linebreak-style': 'off',
+    'lines-around-comment': 'off',
     'lines-between-class-members': ['error', 'never'],
     'max-len': ['error', { code: 200, tabWidth: 2 }],
     'max-lines': 'off',
