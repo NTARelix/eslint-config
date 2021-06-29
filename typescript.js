@@ -17,6 +17,7 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-empty-function': 'off',
+    '@typescript-eslint/no-empty-interface': ['error', { allowSingleExtends: true }],
     '@typescript-eslint/no-extra-parens': 'off',
     '@typescript-eslint/no-magic-numbers': 'off',
     '@typescript-eslint/no-type-alias': [
