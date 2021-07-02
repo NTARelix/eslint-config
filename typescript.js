@@ -32,6 +32,7 @@ module.exports = {
         allowTupleTypes: 'always',
       },
     ],
+    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }],
     '@typescript-eslint/object-curly-spacing': ['error', 'always'],
     '@typescript-eslint/prefer-readonly-parameter-types': 'off',
     '@typescript-eslint/promise-function-async': 'off',

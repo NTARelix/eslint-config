@@ -34,6 +34,7 @@ module.exports = {
     'no-nested-ternary': 'off',
     'no-plusplus': 'off',
     'no-ternary': 'off',
+    'no-unused-vars': ['error', { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }],
     'no-warning-comments': 'off',
     'object-curly-spacing': ['error', 'always'],
     'object-property-newline': ['error', { allowAllPropertiesOnSameLine: true }],
