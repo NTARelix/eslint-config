@@ -25,6 +25,7 @@ module.exports = {
     'max-lines-per-function': 'off',
     'max-statements-per-line': 'off',
     'max-statements': 'off',
+    'multiline-comment-style': 'off',
     'multiline-ternary': ['error', 'always-multiline'],
     'no-bitwise': 'off',
     'no-empty-function': 'off',
