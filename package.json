@@ -1,6 +1,12 @@
 {
   "name": "@ntarelix/eslint-config",
   "version": "1.0.12",
+  "keywords": ["eslint", "react", "typescript", "ts", "lint", "javascript", "js", "personal", "config"],
+  "homepage": "https://github.com/NTARelix/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NTARelix/eslint-config.git"
+  },
   "main": "base.js",
   "license": "MIT",
   "scripts": {
