@@ -6,6 +6,7 @@ module.exports = {
     'arrow-parens': ['error', 'as-needed'],
     'brace-style': ['error', '1tbs', { allowSingleLine: true }],
     'capitalized-comments': 'off',
+    'class-methods-use-this': 'off',
     'comma-dangle': ['error', 'always-multiline'],
     'complexity': 'off',
     'curly': ['error', 'multi-line'],
