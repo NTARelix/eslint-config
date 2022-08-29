@@ -40,5 +40,7 @@ module.exports = {
     '@typescript-eslint/semi': ['error', 'never'],
     '@typescript-eslint/space-before-function-paren': ['error', { anonymous: 'never', asyncArrow: 'always', named: 'never' }],
     '@typescript-eslint/strict-boolean-expressions': 'off',
+    'consistent-return': 'off',
+    'default-case': 'off',
   },
 }
